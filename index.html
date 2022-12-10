@@ -11,12 +11,14 @@
   </head>
   <body>
     <div class="container">
-      <h2>!اضغط علي</h2>
+      <h2 button onmouseover="alert (status(BMI(80,1.8)))">!اضغط علي</h2>
       <section>
         <input id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
         <input id="height" type="number" placeholder="الطول بالمتر" />
         <div id="result"></div>
-        <button>احسب</button>
+        <button onclick="calculation()">احسب</button>
+        <!-- <button onmouseover="gan()">press</button> -->
+        <!-- <h1 id="winner">?</h1> -->
       </section>
     </div>
   </body>
